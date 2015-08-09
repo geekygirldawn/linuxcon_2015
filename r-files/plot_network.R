@@ -7,12 +7,12 @@
 
 library(igraph)
 
-# Load the data into a table (comma separated with a header line)
+# Load the data into a data frame (comma separated with a header line)
 
 mailing_list<-read.csv("~/gitrepos/oscon_2015/data/network_output.csv", sep=',', 
                                     header=TRUE)
 
-# Look at table and verify that it looks good
+# Look at data and verify that it looks good
 
 mailing_list
 
