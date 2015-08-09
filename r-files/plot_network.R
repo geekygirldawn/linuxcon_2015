@@ -16,14 +16,6 @@ mailing_list<-read.csv("~/gitrepos/oscon_2015/data/network_output.csv", sep=',',
 
 mailing_list
 
-# Format for use: save it as a matrix 
-# and then an edgelist with directed ties between people 
-# (person a sends an email to person b, which has a direction).
-
-mailing_list.mat <- as.matrix(mailing_list)
-
-mailing_list.graph <- graph.edgelist(mailing_list.mat, directed = TRUE)
-
 # Convert duplicate conversations to weights. Gives each exchange from person a to 
 # person b the weight of one (E stands for an edge sequence, which is a way to link
 # people together). 
