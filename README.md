@@ -6,6 +6,7 @@ By: [Dawn M. Foster](http://fastwonderblog.com). PhD student at the
 ### LinuxCon North America - Seattle 2015
 
 * [Session Info and Abstract](http://sched.co/3Y44)
+* [Presentation Slides](http://www.slideshare.net/geekygirldawn/network-analysis-people-and-open-source-communities-linuxcon-seattle)
 * When: Wednesday, August 19. 2:00pm - 2:50pm
 * Room: Ballard
 
