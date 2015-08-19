@@ -2,14 +2,14 @@
 # Licensed under GNU General Public License (GPL), version 3 or later: 
 # http://www.gnu.org/licenses/gpl.txt
 
-# Load the igraph package - you may need to install it first
+# Load the igraph package using the library command - you may need to install it first
 # Install using command: install.packages("igraph")
 
 library(igraph)
 
 # Load the data into a data frame (comma separated with a header line)
 
-mailing_list<-read.csv("~/gitrepos/oscon_2015/data/network_output.csv", sep=',', 
+mailing_list<-read.csv("~/gitrepos/linuxcon_2015/data/network_output.csv", sep=',', 
                                     header=TRUE)
 
 # Look at data and verify that it looks good
