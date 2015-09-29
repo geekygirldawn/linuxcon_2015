@@ -16,14 +16,10 @@ mailing_list<-read.csv("~/gitrepos/linuxcon_2015/data/network_output.csv", sep='
 
 mailing_list
 
-# Convert duplicate conversations to weights. Gives each exchange from person a to 
-# person b the weight of one (E stands for an edge sequence, which is a way to link
-# people together). 
 # Simplify converts it into a simple graph that does not have loops or duplicate
 # connections (edges) between people. Count multiple edges to get a number that 
 # represents the number of times person a replied to person b as the weight.
 
-E(mailing_list.graph)$weight <- 1
 mailing_list.graphw <- simplify(mailing_list.graph, count.multiple(mailing_list.graph))
 
 # Use help function to learn more about any of these commands ?whatever. Example:
@@ -40,7 +36,7 @@ plot(mailing_list.graphw)
 
 tkplot(mailing_list.graphw, vertex.label.color="black", edge.color="darkslategray",
        edge.width=E(mailing_list.graphw)$weight/3, edge.arrow.size=.5, 
-       vertex.size=degree(mailing_list.graph)/2)
+       vertex.size=degree(mailing_list.graphw))
 
 # export a format of the data with weights that can be imported into other 
 # visualization sw
