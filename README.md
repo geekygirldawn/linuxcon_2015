@@ -18,7 +18,7 @@ By: [Dawn M. Foster](http://fastwonderblog.com). PhD student at the
 
 ### Technical Evangelism Meetup - London 2015
 
-* Re-used this repository for this meetup in between LinuxCon events :)
+* Re-used repository for this meetup in between LinuxCon events :)
 * [Meetup Info](http://www.meetup.com/Technical-Evangelism/events/224739107/)
 * When: Tuesday, September 29. 6:30pm
 
