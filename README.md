@@ -20,6 +20,7 @@ By: [Dawn M. Foster](http://fastwonderblog.com). PhD student at the
 
 * Re-used repository for this meetup in between LinuxCon events :)
 * [Meetup Info](http://www.meetup.com/Technical-Evangelism/events/224739107/)
+* [Presentation Slides](http://www.slideshare.net/geekygirldawn/network-analysis-tech-evangelism-london-meetup)
 * When: Tuesday, September 29. 6:30pm
 
 Additional Info
