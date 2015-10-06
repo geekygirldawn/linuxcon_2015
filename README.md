@@ -13,8 +13,9 @@ By: [Dawn M. Foster](http://fastwonderblog.com). PhD student at the
 ### LinuxCon Europe - Dublin 2015
 
 * [Session Info and Abstract](http://sched.co/3xX3) 
+* [Presentation Slides](http://www.slideshare.net/geekygirldawn/network-analysis-people-and-open-source-communities-linuxcon-seattle)
 * When: Tuesday, October 6. 11:30am - 12:20pm
-* Room: Wicklow Hall 1
+* Room: Ecocem
 
 ### Technical Evangelism Meetup - London 2015
 
